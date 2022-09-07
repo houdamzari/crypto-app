@@ -2,7 +2,6 @@
     /* --text-primary:#fff; */
     /* --bgPrimary:#fff; */
    --bgSecondary: #F9F9F9;
-   --pink: #0071bd;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
 }
@@ -15,7 +14,7 @@
 }
 
 a:hover{
-    color: var(--pink) !important;
+    color: #5ffbf1 !important;
 }
 
 .app{
@@ -23,8 +22,7 @@ a:hover{
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
- /* background-image: linear-gradient(to right bottom, #070f30, #1d284e, #35436f, #4d5f91, #657db5, #6792cc, #69a8e3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
- /* background-color: #022431; */
+
   background-image: linear-gradient(to right bottom, #022432, #032f3e, #033a4a, #034555, #045161, #086272, #0f7382, #178592, #25a1ab, #36bec3, #49dcdb, #5ffbf1);
 }
 
@@ -145,7 +143,7 @@ a:hover{
 
 .coin-heading-container .coin-name{
     font-weight: 900;
-    color: var(--pink);
+    color:#5ffbf1;
 }
 
 .coin-heading-container p{
@@ -165,13 +163,13 @@ a:hover{
     font-weight: 700;
     font-size: 1.4rem;
     margin-top: 20px;
-    color: var(--pink);
+    color: #5ffbf1;
 }
 
 .coin-details-heading{
     font-weight: 700 !important;
     margin-top: 20px !important;
-    color: var(--pink) !important;
+    color: #5ffbf1 !important;
 }
 
 .coin-stats{
@@ -208,7 +206,7 @@ a:hover{
 
 .coin-desc-link h2{
     font-weight: 700;
-    color: var(--pink);
+    color: #5ffbf1;
 }
 
 .coin-desc-link p{
@@ -217,7 +215,7 @@ a:hover{
 }
 
 .coin-desc-link a{
-    color: var(--pink);
+    color: #5ffbf1;
 }
 
 .coin-desc-link h3{
@@ -423,7 +421,14 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;}
-
+.footer a{
+    color: #008384!important;
+    background: #008384!important;
+}
+.ant-menu-horizontal :hover{
+    /* border: none!important; */
+    border-bottom: #5ffbf1!important;
+}
 .LandingSection{
     display: flex;
     flex-direction: row;
