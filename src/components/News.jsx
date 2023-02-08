@@ -15,7 +15,7 @@ const News = ({ simplified }) => {
     newsCategory: newsCategory,
     count: simplified ? 6 : 12,
   });
-  console.log(cryptoNews);
+  console.log(data);
   if (!cryptoNews?.value) return <Loader />;
   return (
     <>

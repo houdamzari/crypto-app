@@ -74,11 +74,6 @@ const Navbar = () => {
               Exchanges
             </Link>
           </Menu.Item>
-          <Menu.Item>
-            <Link to="/news" className="link">
-              News
-            </Link>
-          </Menu.Item>
         </Menu>
       )}
     </div>
